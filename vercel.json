@@ -1,5 +1,8 @@
 {
   "version": 2,
+  "rewrites": [
+    { "source": "/", "destination": "/api/matches" }
+  ],
   "functions": {
     "api/matches.js": {
       "maxDuration": 30
